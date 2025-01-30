@@ -49,10 +49,10 @@ incorporating various optimization approaches through a single parameter
 makes it a compelling tool for investors seeking more stable and
 well-tailored portfolios.
 
-##Example usage
+## Example usage
 
 ```python
-returns = diff_log_eu_stock_df # Simulated asset returns
+returns # Simulated asset returns
 signal = np.mean(returns, axis=0)  # Example signal (mean returns)
 lambda_ = 10
 method = 'anchored'
